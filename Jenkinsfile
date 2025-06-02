@@ -14,7 +14,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/tharinduLTM/football-scores.git'
+        echo 'Repository already checked out by Jenkins'
       }
     }
 
